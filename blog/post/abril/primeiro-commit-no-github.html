@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Ej - Elton Jefferson</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="../../../vendor/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="../../../vendor/devicons/css/devicons.css" rel="stylesheet">
+    <link href="../../../vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../../css/resume.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">E J</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="../../../img/0.jpg" alt="">
+        </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="../../../blog/posts.html">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="../../../#about">Sobre</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="../../../#experience">Experiências</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="../../../#education">Educação</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="../../../#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="../../../#interests">Interesses</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="../#awards">Cursos</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container p-0" style="color: black">
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+            <h2 class="mb-5" style="color: black">Enviando o primeiro arquivo para o github</h2>
+
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">28 de Dezembro de 2017</span>
+                    </div>
+
+                    <p>
+                        Olá vamos aprender a usar o básico e também estaremos enviado arquivo pelo terminal para o github.
+                        <br>
+                        Tentarei explicar da maneira mais fácil.
+                        <br>
+                        Crie uma conta no <b>https://github.com/</b> logo depois criaremos um repositório.
+                        <br>
+                        Para demostrar siga os passos:
+
+
+                    </p>
+                    <h3> 1º passo :</h3>
+
+                    Após ter logado, procure pela a sinal de mais no topo <b>“ + create new repository”.</b><br>
+
+                    Na próxima tela defina o nome do seu repositório exemplo <b>“teste”</b>.
+                    <br>As configurações deixe como estão.
+                    Logo clique na opção <b>“create repository”</b>. <br>
+                    Na próxima pagina ficaram as instruções de utilização,
+                    não faça nada apenas anote a linha que contém o conteúdo semelhante a descrita abaixo:
+
+                    <b>https://github.com/seu-usuario/teste.git</b>
+                    precisaremos dessa linha depois. <br>Agora devemos abrir o terminal onde a brincadeira acontece.
+
+                    </p>
+                    <h3>2º passo:</h3>
+                    <p>
+                        Faremos uma configuração que não tinhamos realizado antes,<br>
+                        É bem simples, é recomendado que se faça a adição do nome de usúario
+                        e o e-mail que foi usado na conta do github, essa configuração será
+                        feita apenas uma vez caso você passe o comando
+                        <b>“ --global”</b>
+                        pois sempre vai ser usada esta informação
+                        em qualquer coisa que faça nesse sistema.
+                        <br>
+                        Caso deseje usar outra conta de e-mail em projetos diferentes é
+                        possível através do comando sem a opção <b>“--global”</b><br><br>
+                        Entre no diretório:
+                    </p>
+
+                    <b>cd “/home/seu_usuario/”</b><br><br>
+                    abra o terminal e digite:<br><br>
+                    <b>$ git config --global user.email "email-que-usou-pra-criar-a-conta-do-github"</b><br>
+                    <b>$ git config --global user.name "nome-do-seu-usuario-de-login-do-github"</b>
+                    <br>
+                    <br>
+
+                    Agora iremos criar um diretório onde ficará os projetos git, caso já tenha criado entre nele.
+                    <br>
+                    <br>
+                    Crie um diretorio com o comando :
+                    <br>
+                    <br>
+                    <b>mkdir nomeDoDiretorio-git</b><br>
+                    <b>cd nomeDoDiretorio-git</b>
+                    <br>
+                    <br>
+                    Agora criaremos um diretório para alocar o repositório que tínhamos criado anteriormente no site.<br>
+                    dentro desse diretório crie um arquivo chamado <b>teste-git</b>.
+
+                    <h3>3º passo</h3>
+
+                    <p>
+                        Agora começaremos a utilizar o Git para gerir o repositório.
+                        Para inicializar as configurações, digite no terminal:
+                    </p>
+                    <b>git init</b>
+                    <p>
+                        Adicione mudancas ao arquivo que criamos antes, chamado <b>teste-git</b>.<br>
+                        faça: <b> echo “texto que quero introduzir em arquivo” >> teste-git</b><br>
+                    </p>
+                    <p>
+                        Para adicionar:
+                        <b>git add teste</b>
+                    </p>
+                    <p>
+                        O mais importante sempre que adicionar algo com "git add", terá que criar um "commit". Dessa forma a
+                        alteração será identificada pelo git. <br> Digite o comando:
+                        <b>git commit -m “commitando arquivos no git ”</b><br>
+                        Aquele endereço que pedi pra anotar, vamos usá-lo agora:
+                    </p>
+                    <p>
+                        <b>git remote add origin https://github.com/seu-usuario/teste.git</b>
+                        <b>git status</b>
+                    </p>
+                    <p>
+                        Para enviar ao repositório github:
+                        <b>git push -u origin master</b>
+                    </p>
+                    <p>
+                        Nessa parte pedirá o nome do usuário que usa pra logar no GitHub e a senha.
+                        Recarregue a página do github no navegador, e veja se aconteceu as alterações.
+                        Toda vez que adicionar ou alterar algo inclua ao git é uma boa prática:
+                        <b>git status</b>
+                        Ele irá listar o que foi adicionado ou alterado.
+                        Depois de feito essa configurações iniciais, bastará apenas usar os seguintes comandos para administrar:
+
+                    </p>
+                    <p>
+                        <b>git status</b><br>
+                        <b>git add seu-arquivo</b><br>
+                        <b>git commit -m “mais uma”</b><br>
+                        <b>git push -u origin master</b><br>
+
+                        Caso crie outro repositório. Terá que repetir as configurações no início do tutorial.<br>
+
+                        Obrigado pela atenção!!!
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="../../../vendor/jquery/jquery.js"></script>
+        <script src="../../../vendor/bootstrap/js/bootstrap.bundle.js"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="../../../vendor/jquery-easing/jquery.easing.js"></script>
+
+        <!-- Custom scripts for this template -->
+        <script src="../../../js/resume.js"></script>
+
+    </section>
+</div>
+</body>
+
+</html>
